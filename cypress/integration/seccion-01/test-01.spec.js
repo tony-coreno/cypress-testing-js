@@ -6,6 +6,7 @@ describe('Testing con cypress', () => {
 
         cy.log('Hola Mundo')
         cy.visit("https://sleepy-dubinsky-a59d2d.netlify.app/")
+        cy.wait(2500)
         
     });
 })
